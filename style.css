@@ -1,0 +1,55 @@
+body {
+    background-color: cadetblue;
+}
+
+.title {
+    font-family: 'Bangers', cursive;
+    text-align: center;
+    font-size: 40px;
+    letter-spacing: 1px;
+}
+
+.title:hover {
+    color: chocolate;
+    cursor: pointer;
+}
+
+.subtitle {
+    font-family: 'Bangers', cursive;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: normal;
+}
+
+.subtitle:hover {
+    color: darkgoldenrod;
+    cursor: pointer;
+}
+.grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.img {
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+}
+
+img:hover {
+    border: 4px solid white;
+}
+
+.a-link {
+    text-decoration: none;
+    color: black;
+    font-family: 'Bangers', cursive;
+    font-size: 30px;
+    text-align: center;
+}
+
+.a-link:hover {
+    color: brown;
+}
+
