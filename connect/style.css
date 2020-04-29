@@ -1,0 +1,77 @@
+body {
+    background-color: cadetblue;
+}
+
+.title {
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Bangers', cursive;
+}
+
+.title:hover {
+    color: chocolate;
+    cursor: pointer;
+  }
+
+.subtitle {
+    text-align: center;
+    font-family: 'Bangers', cursive;
+    font-size: 25px;
+}
+
+.subtitle:hover {
+    color: darkgoldenrod;
+    cursor: pointer;
+}
+
+.button {
+    font-family: 'Bangers', cursive;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+}
+
+.button:hover {
+    color: aqua;
+}
+
+.grid {
+    margin: auto;
+    border: 2px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    height: 240px;
+    width: 280px;
+    background-color: cornflowerblue;
+}
+
+.grid div {
+    height: 40px;
+    width: 40px;
+}
+
+.player-one {
+    background-color: red;
+    border-radius: 10px;
+}
+
+.player-two {
+    background-color: blue;
+    border-radius: 10px;
+}
+
+
+.home {
+    font-family: 'Bangers', cursive;
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+    margin-left: 20px;
+    margin-top: 10px;
+  }
+  
+  .home:hover {
+    color: chocolate;
+  }
