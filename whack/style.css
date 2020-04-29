@@ -1,0 +1,83 @@
+body {
+    background-color: cadetblue;
+}
+
+.title {
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Bangers', cursive;
+    font-weight: bold;
+}
+
+.title:hover {
+    color: chocolate;
+    cursor: pointer;
+  }
+
+
+.subtitle {
+    font-family: 'Bangers', cursive;
+    font-size: 25px;
+    text-align: center;
+}
+
+.subtitle:hover {
+    color: darkgoldenrod;
+    cursor: pointer;
+}
+
+.href {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    font-family: 'Bangers', cursive;
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+}
+
+.href:hover {
+    color: chocolate;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    border-style: solid;
+    border-color: white;
+}
+
+.grid {
+    background-color: burlywood;
+    margin: auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+    height: 320px;
+    width: 320px;
+}
+
+.mole {
+    background-image: url('mole.png');
+    background-size: cover;
+    background-color: cadetblue;
+}
+
+.mole:hover {
+    background-color: chocolate;
+    cursor: pointer;
+}
+
+.home {
+    font-family: 'Bangers', cursive;
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+    margin-left: 20px;
+    margin-top: 10px;
+  }
+  
+  .home:hover {
+    color: chocolate;
+  }
